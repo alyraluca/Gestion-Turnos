@@ -26,7 +26,7 @@ TAB_Configuración
 -	Podremos crear turnos y puestos de trabajo con el boton de ‘CREAR’.
 
 MAPA MODULO 1
-![mapa__module1](../../img/mapa__module1.jpg)
+![mapa__module1](img/mapa__module1.jpg)
 
 DEPENDENCIAS DE OTROS MODULOS
 Modulo 1 depende de: Empleados. Necesitamos la lista de empleados.
