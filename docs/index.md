@@ -1,3 +1,11 @@
+---
+# Feel free to add content and custom Front Matter to this file.
+# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+
+layout: page
+title: Planificación Modulo 1
+---
+# Planificación
 NOMBRE: planificación
 DESCRIPCIÓN
 Simplifica la creación de horarios y aumenta la productividad. Gestiona a la perfección los turnos y los recursos y disfruta de una nueva coordinación eficiente entre tus empleados.
@@ -82,19 +90,21 @@ Modulo 1: comunica con empleados
 Requisitos: acceso a la lista de empleados del modulo ‘Empleados’
 Protocolo/ Formato del mensaje: podemos utilizar RPC (es una llamada remota a procedimientos para invocar funciones de otros módulos) o también podemos hacer uso de una base de datos compartida.
 Estructura Mensaje RPC
-//-------------------------------------------------------//
-# module1/models/module1_model.py
-from odoo import models, api
-class Module1Model(models.Model):
-    _name = 'module1.model'
 
-    @api.model
-    def call_remote_function(self, data):
-        module2_model = self.env['module2.model']
-        result = module2_model.process_data_remotely(data)
-        # Procesar el resultado si es necesario
-        return result
-//---------------------------------------------------------//
+
+
+                        module1/models/module1_model.py
+                        from odoo import models, api
+                        class Module1Model(models.Model):
+                            _name = 'module1.model'
+
+                            @api.model
+                            def call_remote_function(self, data):
+                                module2_model = self.env['module2.model']
+                                result = module2_model.process_data_remotely(data)
+                                # Procesar el resultado si es necesario
+                                return result
+
 
 
 
