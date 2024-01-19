@@ -26,7 +26,7 @@ Modulo 1 depende de: Empleados. Necesitamos la lista de empleados.
 WIREFRAME
 
 Wireframe del TAB de ‘Planeación’ de la sección de ‘Por Empleado’.
-![wireframe_planeacion_empleado1](imag/wireframe_planeacion_empleado1.jpg)
+![wireframe_planeacion_empleado1](img/wireframe_planeacion_empleado1.jpg)
 
 Wireframe del TAB de ‘Planeación’ de la sección de ‘Por Empleado’ y la función ‘Añadir turno’.
 ![wireframe_planeacion_empleado2](img/wireframe_planeacion_empleado2.jpg)
@@ -65,7 +65,7 @@ Empleados: acceso a ‘Mi Horario’, ‘Planeación’.
 DIAGRAMAS DE FLUJO
 
 Diagrama de flujo del TAB de ‘Planeación’.
-![flowchart_planeacion](img/lowchart_planeacion.jpg)
+![flowchart_planeacion](img/flowchart_planeacion.jpg)
 
 Diagrama de flujo del TAB de ‘Mi Horario’.
 ![flowchart_miHorario](img/flowchart_miHorario.jpg)
