@@ -6,7 +6,7 @@ layout: page
 title: Gestion-Turnos
 ---
 
-DESCRIPCIÓN
+### DESCRIPCIÓN
 Simplifica la creación de horarios y aumenta la productividad. Gestiona a la perfección los turnos y los recursos y disfruta de una nueva coordinación eficiente entre tus empleados.
 
 ### DESCRIPCIÓN DETALLADA
