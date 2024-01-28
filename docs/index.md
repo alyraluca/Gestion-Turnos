@@ -3,55 +3,54 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: page
-title: Planificación Modulo 1
+title: Gestion-Turnos
 ---
-# Planificación
-NOMBRE: planificación
 
 DESCRIPCIÓN
 Simplifica la creación de horarios y aumenta la productividad. Gestiona a la perfección los turnos y los recursos y disfruta de una nueva coordinación eficiente entre tus empleados.
 
 ### DESCRIPCIÓN DETALLADA
 
-TAB_Planeación:
--	Podremos gestionar todos los turnos y organizarlos en tablas por puesto o por empleado.
--	Podremos deja turnos sin asignar y asignarlos posteriormente con facilidad.
--	Posibilidad de enviar a los empleados sus respectivos horarios.
--	Posibilidad de copiar todos los turnos de la semana anterior y reorganizarlos.
--	Planeación: mostrar los turnos en una tabla.
--	Ver horarios por dia, semana, mes, año.
+1. PLANIFICACIÓN:
+	- Añadir empleados y asignarle un rol de trabajo.
+    - Podremos crear nuevos turnos y asignarlos a nuestros empleados y enviárselos al correo, además de poder publicarlo en el calendario para que lo vea toda la plantilla. 
+	- Además, podrán dejar horas / turnos abiertos en el calendario de la empresa que se podrían dar por bajas o vacaciones. Así mismo, los empleados que quieran hacer más horas podrán apuntarse y solicitarlos al administrador.
 
-TAB_Mi Horario
--	Los empleados podran ver y gestionar sus horarios en una tabla.
--	Turnos abiertos disponibles: los empleados pueden ver los turnos abiertos disponibles.
--	Podremos verlo por dia, semana y més.
+2. MI HORARIO:
+	- Aquí el empleado podrá ver su horario y turnos asignados. Además, podrá pedir días libres para asuntos propios, días por enfermedad o vacaciones. A su vez el administrador podrá aceptar la solicitud o denegarla.
+	- Hay una posibilidad de que los empleados se puedan intercambiar algunos turnos de trabajo entre ellos a modo de favor o emergencia que a priori sería muy precipitado pasar por la aprobación de un administrador.
+	- También podrán apuntarse para hacer más horas en los huecos que se podrían dar en los turnos.
+	- Tendrán una lista con todos sus días libres disponibles, ya sea para asuntos propios o vacaciones. También habrá otra con todos los días libres ya tomados a lo largo del año.
+	- Además, los empleados podrán dejar por escrito su disponibilidad en caso de emergencia o cambio de turnos, eso sería muy práctico para los empleados a media jornada que quieran más horas. Ellos podrían pedir ser avisados si hay algún hueco disponible.
 
-TAB_Configuración
--	Podremos crear turnos y puestos de trabajo con el boton de ‘CREAR’.
+3. INFORMES
+	- El módulo también nos facilita el seguimiento de las horas trabajadas por cada empleado y podrá generar informes para la gestión de nóminas y cumplimiento laboral.
+	- Así mismo, el módulo podrá alertar al supervisor sobre posibles conflictos o ausencias o simplemente, cada vez que haya un cambio.
+	- Teniendo en cuenta los turnos asignados todas las semanas, nos genera automáticamente los turnos del mes siguiente. El gerente lo podrá revisar y dar el visto bueno antes de publicarlo.
+	- El sistema podrá predecir la demanda teniendo en cuenta los días de la semana, los días festivos o las horas del día, y asignar automáticamente más personal cuando sea necesario para lidiar con la oleada de clientela. 
+    - Otra cosa que podrá hacer el sistema es avisar automáticamente, al empleado que ha rellenado su disponibilidad, de un hueco en los turnos, y este podrá aceptar la solicitud o denegarla.
 
-### MAPA MODULO 1
+
+### MAPA
 
 ![mapa__module1](img/mapa__module1.jpg)
 
-### DEPENDENCIAS DE OTROS MODULOS
-
-Modulo 1 depende de: Empleados. Necesitamos la lista de empleados.
 
 ### WIREFRAME
 
-Wireframe del TAB de ‘Planeación’ de la sección de ‘Por Empleado’.
+Wireframe del TAB de ‘Planificación’ de la sección de ‘Empleados’.
 
 ![wireframe_planeacion_empleado1](img/wireframe_planeacion_empleado1.jpg)
 
-Wireframe del TAB de ‘Planeación’ de la sección de ‘Por Empleado’ y la función ‘Añadir turno’.
+Wireframe del TAB de ‘Planificación’ de la sección de ‘Empleados’ y la función ‘Añadir Empleado’.
 
 ![wireframe_planeacion_empleado2](img/wireframe_planeacion_empleado2.jpg)
 
-Wireframe del TAB de ‘Planeación’ de la sección de ‘Por Puesto’.
+Wireframe del TAB de ‘Planificación’ de la sección de ‘Turnos’.
 
 ![wireframe_planeacion_puesto1](img/wireframe_planeacion_puesto1.jpg)
 
-Wireframe del TAB de ‘Planeación’ de la sección de ‘Por Puesto’ y la función ‘Añadir turno’.
+Wireframe del TAB de ‘Planificación’ de la sección de ‘Turnos’ y la función ‘Crear turno’.
 
 ![wireframe_planeacion_puesto2](img/wireframe_planeacion_puesto2.jpg)
 
@@ -59,72 +58,29 @@ Wireframe del TAB de ‘Mi Horario’.
 
 ![wireframe_miHorario](img/wireframe_miHorario.jpg)
 
-Wireframe del TAB de ‘Configuración’ de la sección de ‘Puestos’.
-
-![wireframe_configuracion_puesto1](img/wireframe_configuracion_puesto1.jpg)
-
-Wireframe del TAB de ‘Configuración’ de la sección de ‘Puestos’ y la función ‘Crear’.
-
-![wireframe_configuracion_puesto2](img/wireframe_configuracion_puesto2.jpg)
-
-
-Wireframe del TAB de ‘Configuración’ de la sección de ‘Turnos’.
-
-![wireframe_configuracion_turno1](img/wireframe_configuracion_turno1.jpg)
-
-Wireframe del TAB de ‘Configuración’ de la sección de ‘Turnos’ y la función ‘Crear’.
-
-![wireframe_configuracion_turno2](img/wireframe_configuracion_turno2.jpg)
 
 ### CONTROL DE ACCESO
 
-Grupos: administradores, empleados.
-Acceso al modulo: todos los usuarios.
-Administradores: accesso a ‘Planeación’, ‘Mi Horario’ y Configuración
-	- Permiso de lectura y escritura a todos los modulos.
-Empleados: acceso a ‘Mi Horario’, ‘Planeación’.
+1. Grupos: administradores, empleados.
+2. Acceso al módulo: todos los usuarios.
+3. Administradores: acceso a ‘Planificación’, ‘Mi Horario’ 
+	- Permiso de lectura y escritura a todos los módulos.
+4. Empleados: acceso a ‘Mi Horario’, ‘Planificación’.
 	- ‘Mi Horario’: acceso de lectura.
-	- ‘Planeación’: acceso de lectura.
+	- ‘Planificación’: acceso de lectura.
+
 
 ### DIAGRAMAS DE FLUJO
 
-Diagrama de flujo del TAB de ‘Planeación’.
+Diagrama de flujo del TAB de ‘Planificación’ y ‘Mi Horario’.
 
 ![flowchart_planeacion](img/flowchart_planeacion.jpg)
 
-Diagrama de flujo del TAB de ‘Mi Horario’.
-
-![flowchart_miHorario](img/flowchart_miHorario.jpg)
-
-Diagrama de flujo del TAB de ‘Configuración’ y de las subTabs de ‘Por Turno’ y ‘Por Puesto’.
-
-![flowchart_configuracion_turno](img/flowchart_configuracion_turno.jpg)
-![flowchart_configuracion_puesto](img/flowchart_configuracion_puesto.jpg)
 
 ### ESQUEMA RELACIONAL DE LAS NUEVAS TABLAS
 
 ![data_base_module1](img/data_base_module1.jpg)
 
-### CARACTERISTICAS COMUNICACIÓN
-
-Modulo 1: comunica con empleados 
-Requisitos: acceso a la lista de empleados del modulo ‘Empleados’
-Protocolo/ Formato del mensaje: podemos utilizar RPC (es una llamada remota a procedimientos para invocar funciones de otros módulos) o también podemos hacer uso de una base de datos compartida.
-Estructura Mensaje RPC:
-
-
-
-                        module1/models/module1_model.py
-                        from odoo import models, api
-                        class Module1Model(models.Model):
-                            _name = 'module1.model'
-
-                            @api.model
-                            def call_remote_function(self, data):
-                                module2_model = self.env['module2.model']
-                                result = module2_model.process_data_remotely(data)
-                                # Procesar el resultado si es necesario
-                                return result
 
 
 

@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "planificacion_mod1",
+    'name': "Gestion Turnos",
 
     'summary': "Simplifica la creacion de horarios.""
         Short (1 phrase/line) summary of the module's purpose, used as
@@ -8,22 +8,15 @@
 
     'description': "Simplifica la creación de horarios y aumenta la productividad. Gestiona a la perfección los turnos y los recursos y disfruta de una nueva coordinación eficiente entre tus empleados.""
         Long description of module's purpose
-    "TAB_Planeación:
--	Podremos gestionar todos los turnos y organizarlos en tablas por puesto o por empleado.
--	Podremos deja turnos sin asignar y asignarlos posteriormente con facilidad.
--	Posibilidad de enviar a los empleados sus respectivos horarios.
--	Posibilidad de copiar todos los turnos de la semana anterior y reorganizarlos.
--	Planeación: mostrar los turnos en una tabla.
--	Ver horarios por dia, semana, mes, año.
-TAB_Mi Horario
--	Los empleados podran ver y gestionar sus horarios en una tabla.
--	Turnos abiertos disponibles: los empleados pueden ver los turnos abiertos disponibles.
--	Podremos verlo por dia, semana y més.
-TAB_Configuración
--	Podremos crear turnos y puestos de trabajo con el boton de ‘CREAR’."",
+    "El módulo también nos facilita el seguimiento de las horas trabajadas por cada empleado y podrá generar informes para la gestión de nóminas y cumplimiento laboral.
+	Así mismo, el módulo podrá alertar al supervisor sobre posibles conflictos o ausencias o simplemente, cada vez que haya un cambio.
+	Teniendo en cuenta los turnos asignados todas las semanas, nos genera automáticamente los turnos del mes siguiente. El gerente lo podrá revisar y dar el visto bueno antes de publicarlo.
+	El sistema podrá predecir la demanda teniendo en cuenta los días de la semana, los días festivos o las horas del día, y asignar automáticamente más personal cuando sea necesario para lidiar con la oleada de clientela. 
+Otra cosa que podrá hacer el sistema es avisar automáticamente, al empleado que ha rellenado su disponibilidad, de un hueco en los turnos, y este podrá aceptar la solicitud o denegarla.
+"",
 
     'author': Alexandra Raluca, Savu",
-    'website': "https://github.com/alyraluca/planificacion_mod1.git",
+    'website': "https://github.com/alyraluca/Gestion-Turnos.git",
 
     # Categories can be used to filter modules in modules listing
     # Check https://github.com/odoo/odoo/blob/14.0/odoo/addons/base/data/ir_module_category_data.xml
